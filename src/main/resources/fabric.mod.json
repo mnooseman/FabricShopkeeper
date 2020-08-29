@@ -1,0 +1,27 @@
+{
+  "schemaVersion": 1,
+  "id": "fabricshopkeeper",
+  "version": "${version}",
+  "name": "FabricShopkeeper",
+  "description": "A player shop mod for Fabric",
+  "authors": [
+    "Mnooseman"
+  ],
+  "contact": {},
+  "license": "GPL-3.0",
+  "icon": "assets/fabricshopkeeper/icon.png",
+  "environment": "server",
+  "entrypoints": {
+    "main": [
+      "io.github.mnooseman.fabricshopkeeper.FabricShopkeeper"
+    ]
+  },
+  "mixins": [
+    "fabricshopkeeper.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.9.2+build.206",
+    "fabric": "*",
+    "minecraft": "1.16.2"
+  }
+}
